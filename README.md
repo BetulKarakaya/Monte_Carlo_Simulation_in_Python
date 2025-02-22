@@ -16,22 +16,45 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 
 ## 🚀 Included Simulations  
 
-### 🎲 **1. Dice Roll Probability Simulation**  
-- **Goal:** Estimate the probability of rolling a specific sum (e.g., **8**) when rolling **two six-sided dice**  
-- **How It Works:**  
-  - Simulates **100,000** dice rolls  
-  - Counts occurrences where the dice sum equals the target  
-  - Computes the probability and compares it to the theoretical value  
-  - **Visualizes the results** with a **pie chart**
+### 🎲 1. Dice Roll Probability Simulation
+**Goal:** Estimate the probability of rolling a specific sum (e.g., 8) when rolling two six-sided dice.
 
-### 🎲 **2. Coin Toss Probability Simulation**  
-**Goal:** Estimate the probability of getting heads or tails in a large number of coin flips.  
-**How It Works:**  
-- Simulates **100,000** coin flips using Monte Carlo methods.  
-- Calculates the frequency of heads and tails.  
-- Computes the probability of heads and tails.  
-- **Visualizes the results** with:
-  - A **pie chart** showing the probability distribution of heads and tails.  
-  - A **bar chart** displaying the total occurrences of heads and tails.  
-- Demonstrates the **Law of Large Numbers**, as the probability should converge to 50% for each outcome when the sample size is large enough.  
+**How It Works:**
+- Simulates 100,000 dice rolls.
+- Counts occurrences where the dice sum equals the target.
+- Computes the probability and compares it to the theoretical value.
+- Visualizes the results with a pie chart.
+
+### 🪙 2. Coin Toss Probability Simulation
+**Goal:** Estimate the probability of getting heads or tails in a large number of coin flips.
+
+**How It Works:**
+- Simulates 100,000 coin flips using Monte Carlo methods.
+- Calculates the frequency of heads and tails.
+- Computes the probability of heads and tails.
+- Visualizes the results with:
+  - A pie chart showing the probability distribution of heads and tails.
+  - A bar chart displaying the total occurrences of heads and tails.
+- Demonstrates the Law of Large Numbers, as the probability should converge to 50% for each outcome when the sample size is large enough.
+
+### 🎲 3. Three Coin Toss Probability Simulation
+**Goal:** Estimate the probability of getting at least one 'Tails' when flipping three fair coins.
+
+**How It Works:**
+- Simulates 100,000 trials where three coins are flipped per trial.
+- Determines how many trials contain at least one 'Tails'.
+- Computes the estimated probability and compares it to the theoretical probability:
+
+  \[
+  P(At least one Tails) = 1 - P(No Tails)
+  \]
+
+  \[
+  = 1 - (1/2 × 1/2 × 1/2) = 1 - 1/8 = 7/8 ≈ 0.875
+  \]
+
+- Visualizes the results with:
+  - A bar chart showing the frequency of 'Heads' and 'Tails' across the three coin flips.
+  - A pie chart illustrating the probability distribution of getting at least one 'Tails'.
+ 
 
