@@ -23,7 +23,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 - Simulates 100,000 dice rolls.
 - Counts occurrences where the dice sum equals the target.
 - Computes the probability and compares it to the theoretical value.
-- Visualizes the results with a pie chart.
+- Visualizes the results with a pie chart. 🥧
 
 ### 🪙 2. Coin Toss Probability Simulation
 **Goal:** Estimate the probability of getting heads or tails in a large number of coin flips.
@@ -33,11 +33,11 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 - Calculates the frequency of heads and tails.
 - Computes the probability of heads and tails.
 - Visualizes the results with:
-  - A pie chart showing the probability distribution of heads and tails.
-  - A bar chart displaying the total occurrences of heads and tails.
+  - 🥧A pie chart showing the probability distribution of heads and tails.
+  - 📊A bar chart displaying the total occurrences of heads and tails.
 - Demonstrates the Law of Large Numbers, as the probability should converge to 50% for each outcome when the sample size is large enough.
 
-### 🎲 3. Three Coin Toss Probability Simulation
+### 🪙 3. Three Coin Toss Probability Simulation
 **Goal:** Estimate the probability of getting at least one 'Tails' when flipping three fair coins.
 
 **How It Works:**
@@ -54,7 +54,22 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
   \]
 
 - Visualizes the results with:
-  - A bar chart showing the frequency of 'Heads' and 'Tails' across the three coin flips.
-  - A pie chart illustrating the probability distribution of getting at least one 'Tails'.
+  - 📊 A bar chart showing the frequency of 'Heads' and 'Tails' across the three coin flips.
+  - 🥧A pie chart illustrating the probability distribution of getting at least one 'Tails'.
+
+
+ ### 🎲 4. Dice Face Probability Simulation
+**Goal:** Estimate the probability distribution of each face (1-6) in a large number of dice rolls.
+
+**How It Works:**
+- Simulates 100,000 dice rolls using Monte Carlo methods.
+- Counts how many times each face (1-6) appears.
+- Computes the experimental probability for each face.
+- Compares experimental probabilities with the theoretical probability (1/6 ≈ 16.67%).
+- Visualization:
+   - 📊 Bar Chart: Displays how frequently each face appeared.
+   - 🥧 Pie Chart: Shows the probability distribution of each die face.
+- 🔢 Demonstrates the Law of Large Numbers, where probabilities should approach 1/6 as the number of trials increases.
+This simulation helps understand randomness and probability distribution in rolling a fair die! 🎲✨
  
 
