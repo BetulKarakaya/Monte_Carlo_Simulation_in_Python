@@ -71,5 +71,27 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
    - 🥧 Pie Chart: Shows the probability distribution of each die face.
 - 🔢 Demonstrates the Law of Large Numbers, where probabilities should approach 1/6 as the number of trials increases.
 This simulation helps understand randomness and probability distribution in rolling a fair die! 🎲✨
+
+
+### 🎱 5. Monte Carlo Ball Selection Simulation  
+**Goal:** Estimate the probability of drawing a specific colored ball from a bag containing multiple colors.  
+
+#### **How It Works:**  
+- The user defines the number of **balls for each color** in a bag.  
+- A **random ball** is drawn from the bag for a large number of trials (e.g., 100,000).  
+- Counts how many times the **target color** is drawn.  
+- Computes the experimental probability and compares it with the theoretical probability.  
+
+#### **Visualization:**  
+📊 **Bar Chart:** Displays the frequency of each color drawn.  
+🥧 **Pie Chart:** Illustrates the probability distribution of the selected ball colors.  
+
+#### **Concepts Demonstrated:**  
+🔹 **Law of Large Numbers:** As the number of trials increases, the observed probability should approach the theoretical probability.  
+🔹 **Random Sampling:** Simulating real-world probability experiments through random selections.  
+🔹 **Monte Carlo Simulation:** Using repeated random sampling to estimate the likelihood of an event.  
+
+This experiment helps understand probability theory in random selection scenarios, like **lotteries, game mechanics, and real-world decision-making processes!** 🎯✨  
+
  
 
