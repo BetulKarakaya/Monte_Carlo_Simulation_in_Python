@@ -93,5 +93,19 @@ This simulation helps understand randomness and probability distribution in roll
 
 This experiment helps understand probability theory in random selection scenarios, like **lotteries, game mechanics, and real-world decision-making processes!** 🎯✨  
 
+### 🔢 6. Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range
+**Goal:** Estimate the probability of a randomly selected number falling within a specified range using the Monte Carlo method.
+
+#### How It Works:
+- The user defines a number space [min, max) and a search range within this space [min, max).
+- A large number (default: 100,000) of random numbers are generated from the space.
+- The program calculates how many numbers fall within the search range.
+- The probability is computed as the proportion of numbers falling within the specified range.
+- Results are displayed as both numerical output and visualized using bar and pie charts.
+
+#### Visualization:
+- **Bar Chart:** Displays the distribution of numbers inside and outside the specified range.
+- **Pie Chart:** Illustrates the probability of a number appearing within the specified range.
+This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, which can be applied in fields like data science, statistics, and decision-making.📈📚
  
 
