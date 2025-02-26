@@ -107,5 +107,24 @@ This experiment helps understand probability theory in random selection scenario
 - **Bar Chart:** Displays the distribution of numbers inside and outside the specified range.
 - **Pie Chart:** Illustrates the probability of a number appearing within the specified range.
 This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, which can be applied in fields like data science, statistics, and decision-making.📈📚
- 
+
+ ### 🔢 7. Monte Carlo Simulation: Estimating the Probability of Even Numbers in a Given Range  
+
+**Goal**:  
+Estimate the probability of randomly selecting an even number from a user-defined range using the Monte Carlo method.  
+
+#### How It Works:  
+- The user defines a number space \([ \text{min}, \text{max} )\).  
+- A large number (default: 100,000) of random integers are generated within this space.  
+- The program calculates how many of these numbers are even.  
+- The probability is computed as:  
+- **P(even) = Number of even numbers / Total generated numbers**
+- Results are displayed both numerically and visually using charts.  
+
+#### **Visualization: ** 
+- 📊 **Bar Chart**: Displays the distribution of even and odd numbers.  
+- 🥧 **Pie Chart**: Illustrates the probability of selecting an even number.  
+
+This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, applicable in fields like data science, statistics, and decision-making. 📈📚  
+
 
