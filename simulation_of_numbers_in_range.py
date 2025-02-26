@@ -1,6 +1,30 @@
 import matplotlib.pyplot as plt 
 import numpy as np
 
+"""
+Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range
+
+Description:
+This program estimates the probability of a randomly selected number falling within a specified range 
+using the Monte Carlo method. It simulates a large number of random selections from a given numerical space 
+and determines how many fall within the target range.
+
+How It Works:
+- The user defines a number space [min, max) and a search range within this space.
+- A large number (default: 100,000) of random numbers are generated from the space.
+- The program calculates the proportion of numbers falling within the search range.
+- Results are displayed as both numerical output and visualized using bar and pie charts.
+
+Features:
+✔ User-defined input for space and search range with error handling.
+✔ Automatic adjustment to default values in case of invalid input.
+✔ Visualization of probability distribution using Matplotlib.
+✔ Demonstrates the Law of Large Numbers by converging to the expected probability.
+
+This simulation provides insights into probability estimation and random sampling, useful for applications 
+in data science, statistics, and real-world decision-making!
+"""
+
 class NumberInRange:
 
     def __init__(self, space, search, size = 100000):
@@ -42,10 +66,9 @@ class NumberInRange:
         line = plt.Line2D((.5,.5),(.1,.9), color="#6b6c6e", linewidth=2, linestyle="--")
         fig.add_artist(line)
 
-        # Metni alta yerleştir
         fig.text(
-            0.5,  # X konumu (orta)
-            0.02,  # Y konumu (en alta yakın)
+            0.5,  
+            0.02, 
             f"Out of {self.size} numbers, {self.all_in_range} is in range of [{self.min_search}, {self.max_search}).\n"
             f"The probability of numbers in range [{self.min_search}, {self.max_search}) is {self.probability:.4f}.",
             ha="center", va="bottom", fontsize=14, color="#393d47"
