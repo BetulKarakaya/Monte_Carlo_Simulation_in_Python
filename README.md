@@ -16,7 +16,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 
 ## 🚀 Included Simulations  
 
-### 🎲 1. Dice Roll Probability Simulation
+### 🎲 1. [Dice Roll Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_dice_roll_distribution.py)
 **Goal:** Estimate the probability of rolling a specific sum (e.g., 8) when rolling two six-sided dice.
 
 **How It Works:**
@@ -25,7 +25,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 - Computes the probability and compares it to the theoretical value.
 - Visualizes the results with a pie chart. 🥧
 
-### 🪙 2. Coin Toss Probability Simulation
+### 🪙 2. [Coin Toss Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_coin_toss_distribution.py)
 **Goal:** Estimate the probability of getting heads or tails in a large number of coin flips.
 
 **How It Works:**
@@ -73,7 +73,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 This simulation helps understand randomness and probability distribution in rolling a fair die! 🎲✨
 
 
-### 🎱 5. Monte Carlo Ball Selection Simulation  
+### 🎱 5. [Monte Carlo Ball Selection Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/probability_of_ball_selection.py)
 **Goal:** Estimate the probability of drawing a specific colored ball from a bag containing multiple colors.  
 
 #### **How It Works:**  
@@ -93,7 +93,7 @@ This simulation helps understand randomness and probability distribution in roll
 
 This experiment helps understand probability theory in random selection scenarios, like **lotteries, game mechanics, and real-world decision-making processes!** 🎯✨  
 
-### 🔢 6. Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range
+### 🔢 6. [Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_numbers_in_range.py)
 **Goal:** Estimate the probability of a randomly selected number falling within a specified range using the Monte Carlo method.
 
 #### How It Works:
@@ -108,7 +108,7 @@ This experiment helps understand probability theory in random selection scenario
 - **Pie Chart:** Illustrates the probability of a number appearing within the specified range.
 This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, which can be applied in fields like data science, statistics, and decision-making.📈📚
 
- ### 🔢 7. Monte Carlo Simulation: Estimating the Probability of Even Numbers in a Given Range  
+ ### 🔢 7.[Monte Carlo Simulation: Estimating the Probability of Even Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_even_numbers.py)
 
 **Goal**:  
 Estimate the probability of randomly selecting an even number from a user-defined range using the Monte Carlo method.  
@@ -126,5 +126,29 @@ Estimate the probability of randomly selecting an even number from a user-define
 - 🥧 **Pie Chart**: Illustrates the probability of selecting an even number.  
 
 This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, applicable in fields like data science, statistics, and decision-making. 📈📚  
+
+### 8. 🎯 [ Monte Carlo Test Passing Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_passing_test.py) 
+
+### **Goal:**  
+Estimate the probability of passing a multiple-choice test by randomly guessing the answers.
+
+### **How It Works:**  
+- Simulates **100,000** test attempts using Monte Carlo methods.  
+- Each test consists of a set number of **multiple-choice questions** (default: 20).  
+- Each question has **four answer choices** (A, B, C, D), and the correct answers are randomly assigned.  
+- A student **randomly selects answers** for each question.  
+- The number of **correct answers, score percentage, and pass rate** are recorded for each test.  
+- The simulation calculates the probability of passing based on a **user-defined passing grade** (default: 50%).
+
+### **Visualization:**  
+📊 **Histogram:** Displays the distribution of success rates across all tests.  
+📊 **Score Distribution Chart:** Shows how many tests passed and failed, with passing grade and average score indicators.  
+
+### **Expected Results:**  
+- The **probability of passing** should be **low** since random guessing has only a **25% chance per question**.  
+- The **average score** should converge to **25% of the total possible score** (since 1 in 4 answers is correct).  
+- The **Law of Large Numbers** is demonstrated as the results stabilize with increasing test simulations.  
+
+This simulation provides insights into **random probability, test success rates, and statistical distributions** when guessing blindly on a multiple-choice test! 🎓📖  
 
 
