@@ -16,7 +16,23 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 
 ## 🚀 Included Simulations  
 
-### 🎲 1.[Dice Roll Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_dice_roll_distribution.py)
+
+
+###  1.🎲[Dice Roll Probability Simulation: Rolling a 6](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_6_on_die.py)
+
+**Goal:** Estimate the probability of rolling a 6 in a large number of dice rolls.
+
+**How It Works:**
+- Simulates 100,000 rolls of a fair six-sided die using Monte Carlo methods.
+- Counts the number of times a 6 appears.
+- Computes the experimental probability of rolling a 6.
+- Compares the experimental probability with the theoretical value (1/6 ≈ 16.67%).
+- Visualizes the results with:
+  - 📊 A bar chart representing the frequency of each die face.
+  - 📌 A text summary displaying the probability and count of rolling a 6.
+- Demonstrates the Law of Large Numbers, showing how the estimated probability approaches the theoretical probability as the number of trials increases.
+
+### 🎲 2.[Dice Roll Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_dice_roll_distribution.py)
 **Goal:** Estimate the probability of rolling a specific sum (e.g., 8) when rolling two six-sided dice.
 
 **How It Works:**
@@ -25,7 +41,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 - Computes the probability and compares it to the theoretical value.
 - Visualizes the results with a pie chart. 🥧
 
-### 🪙 2.[Coin Toss Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_coin_toss_distribution.py)
+### 🪙 3.[Coin Toss Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_coin_toss_distribution.py)
 **Goal:** Estimate the probability of getting heads or tails in a large number of coin flips.
 
 **How It Works:**
@@ -37,7 +53,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
   - 📊A bar chart displaying the total occurrences of heads and tails.
 - Demonstrates the Law of Large Numbers, as the probability should converge to 50% for each outcome when the sample size is large enough.
 
-### 🪙 3.[Three Coin Toss Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_three_coin_toss_distribution.py)
+### 🪙 4.[Three Coin Toss Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_three_coin_toss_distribution.py)
 **Goal:** Estimate the probability of getting at least one 'Tails' when flipping three fair coins.
 
 **How It Works:**
@@ -58,7 +74,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
   - 🥧A pie chart illustrating the probability distribution of getting at least one 'Tails'.
 
 
- ### 🎲 4.[Dice Face Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_the_sum_of_two_dice.py)
+ ### 🎲 5.[Dice Face Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_the_sum_of_two_dice.py)
 **Goal:** Estimate the probability distribution of each face (1-6) in a large number of dice rolls.
 
 **How It Works:**
@@ -73,7 +89,7 @@ Monte Carlo simulations rely on **random sampling and statistical modeling** to 
 This simulation helps understand randomness and probability distribution in rolling a fair die! 🎲✨
 
 
-### 🎱 5.[Monte Carlo Ball Selection Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/probability_of_ball_selection.py)
+### 🎱 6.[Monte Carlo Ball Selection Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/probability_of_ball_selection.py)
 **Goal:** Estimate the probability of drawing a specific colored ball from a bag containing multiple colors.  
 
 #### **How It Works:**  
@@ -93,7 +109,7 @@ This simulation helps understand randomness and probability distribution in roll
 
 This experiment helps understand probability theory in random selection scenarios, like **lotteries, game mechanics, and real-world decision-making processes!** 🎯✨  
 
-### 🔢 6.[Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_numbers_in_range.py)
+### 🔢 7.[Monte Carlo Simulation: Estimating the Probability of Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_numbers_in_range.py)
 **Goal:** Estimate the probability of a randomly selected number falling within a specified range using the Monte Carlo method.
 
 #### How It Works:
@@ -108,7 +124,7 @@ This experiment helps understand probability theory in random selection scenario
 - **Pie Chart:** Illustrates the probability of a number appearing within the specified range.
 This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, which can be applied in fields like data science, statistics, and decision-making.📈📚
 
- ### 🔢 7.[Monte Carlo Simulation: Estimating the Probability of Even Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_even_numbers.py)
+ ### 🔢 8.[Monte Carlo Simulation: Estimating the Probability of Even Numbers in a Given Range](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_even_numbers.py)
 
 **Goal**:  
 Estimate the probability of randomly selecting an even number from a user-defined range using the Monte Carlo method.  
@@ -127,7 +143,7 @@ Estimate the probability of randomly selecting an even number from a user-define
 
 This simulation demonstrates random sampling and probability estimation. It provides insights into understanding randomness and probability theory, applicable in fields like data science, statistics, and decision-making. 📈📚  
 
-### 🎯 8.[ Monte Carlo Test Passing Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_passing_test.py) 
+### 🎯 9.[ Monte Carlo Test Passing Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_passing_test.py) 
 
 ### **Goal:**  
 Estimate the probability of passing a multiple-choice test by randomly guessing the answers.
