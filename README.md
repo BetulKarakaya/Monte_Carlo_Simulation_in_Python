@@ -137,7 +137,7 @@ Estimate the probability of randomly selecting an even number from a user-define
 - **P(even) = Number of even numbers / Total generated numbers**
 - Results are displayed both numerically and visually using charts.  
 
-#### **Visualization: ** 
+#### **Visualization:** 
 - 📊 **Bar Chart**: Displays the distribution of even and odd numbers.  
 - 🥧 **Pie Chart**: Illustrates the probability of selecting an even number.  
 
@@ -145,10 +145,10 @@ This simulation demonstrates random sampling and probability estimation. It prov
 
 ### 🎯 9.[ Monte Carlo Test Passing Probability Simulation](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_passing_test.py) 
 
-### **Goal:**  
+#### **Goal:**  
 Estimate the probability of passing a multiple-choice test by randomly guessing the answers.
 
-### **How It Works:**  
+#### **How It Works:**  
 - Simulates **100,000** test attempts using Monte Carlo methods.  
 - Each test consists of a set number of **multiple-choice questions** (default: 20).  
 - Each question has **four answer choices** (A, B, C, D), and the correct answers are randomly assigned.  
@@ -156,15 +156,32 @@ Estimate the probability of passing a multiple-choice test by randomly guessing 
 - The number of **correct answers, score percentage, and pass rate** are recorded for each test.  
 - The simulation calculates the probability of passing based on a **user-defined passing grade** (default: 50%).
 
-### **Visualization:**  
+#### **Visualization:**  
 📊 **Histogram:** Displays the distribution of success rates across all tests.  
 📊 **Score Distribution Chart:** Shows how many tests passed and failed, with passing grade and average score indicators.  
 
-### **Expected Results:**  
+#### **Expected Results:**  
 - The **probability of passing** should be **low** since random guessing has only a **25% chance per question**.  
 - The **average score** should converge to **25% of the total possible score** (since 1 in 4 answers is correct).  
 - The **Law of Large Numbers** is demonstrated as the results stabilize with increasing test simulations.  
 
 This simulation provides insights into **random probability, test success rates, and statistical distributions** when guessing blindly on a multiple-choice test! 🎓📖  
 
+
+### 🎲 10.[Monte Carlo Simulation: Highest of 3 Dice Being 5 or 6](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_three_dice_max.py)
+#### **Goal:** 
+Estimate the probability that the highest value among three rolled dice is either 5 or 6.
+
+#### **How It Works:**
+
+- Simulates rolling three six-sided dice for a large number of trials (default: 100,000).
+- Records the highest value in each roll.
+- Counts the occurrences where the highest roll is either 5 or 6.
+- Calculates the probability using Monte Carlo methods.
+#### **Visualization:**
+
+- 📊 Bar Chart: Displays the count of trials where the highest roll was 5 or 6 versus other outcomes.
+- 🥧 Pie Chart: Illustrates the probability distribution of achieving a maximum roll of 5 or 6.
+
+This simulation demonstrates probability principles and the distribution of maximum values in random dice rolls. 🎲✨
 
