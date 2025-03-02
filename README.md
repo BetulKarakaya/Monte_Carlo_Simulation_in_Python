@@ -185,3 +185,22 @@ Estimate the probability that the highest value among three rolled dice is eithe
 
 This simulation demonstrates probability principles and the distribution of maximum values in random dice rolls. 🎲✨
 
+### 🏀 11. [Monte Carlo Simulation: Probability of Making at Least 7 Successful Free Throws](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_free_throw_success.py)
+#### **Goal:**
+Estimate the probability that a basketball player makes at least 7 successful free throws out of 10 attempts.
+
+#### **How It Works:**
+- Simulates a large number of free throw attempts (default: 100,000).
+- Each free throw has a predefined success rate (default: 80%).
+- The simulation calculates how many times the player makes at least 7 successful throws out of 10.
+- The probability of making at least 7 successful throws is estimated using Monte Carlo methods.
+#### **Visualization:**
+- 📊 Bar Chart: Displays the distribution of successful free throws out of 10 attempts.
+- 🥧 Pie Chart: Illustrates the probability of making at least 7 successful free throws versus making fewer than 7.
+
+#### **Detailed Results:**
+The program prints the number of trials where at least 7 successful free throws were made.
+It calculates the estimated probability of achieving this outcome.
+It also displays the most common and least common number of successful free throws in the trials.
+This simulation showcases how Monte Carlo methods can be used to estimate probabilities in a real-world scenario. 🎯
+
