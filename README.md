@@ -215,12 +215,13 @@ Estimate the probability of landing on each section of a wheel that is equally d
 - The probability of each section is estimated based on the number of spins that landed on it.
 - The simulation also displays the distribution of outcomes, allowing for a clear understanding of the probability distribution across sections.
 #### **Visualization:**
-📊 Pie Chart: Displays the probability of landing on each section of the wheel.
-📊 Bar Chart: Shows the distribution of wheel spin outcomes, i.e., how many times each section was chosen.
-🔥 Heatmap: Illustrates the frequency of landing on each section, using color gradients to indicate higher and lower frequencies.
+- 🍰 Pie Chart: Displays the probability of landing on each section of the wheel.
+- 📊 Bar Chart: Shows the distribution of wheel spin outcomes, i.e., how many times each section was chosen.
+- 🔥 Heatmap: Illustrates the frequency of landing on each section, using color gradients to indicate higher and lower frequencies.
 
 #### **Detailed Results:**
 The program prints the frequency and probability of landing on each section, offering insights into the results of the Monte Carlo simulation.
+
 It calculates and displays the probability of landing on each section.
 The most and least common sections are identified and displayed.
 This simulation demonstrates how Monte Carlo methods can be applied to estimate probabilities and analyze outcomes in real-world scenarios such as games or random processes. 🎯
