@@ -204,3 +204,24 @@ It calculates the estimated probability of achieving this outcome.
 It also displays the most common and least common number of successful free throws in the trials.
 This simulation showcases how Monte Carlo methods can be used to estimate probabilities in a real-world scenario. 🎯
 
+### 🎡 12. [Monte Carlo Simulation: Probability Analysis of an Equally Divided Wheel](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_wheel_spin.py)
+**Goal:**
+Estimate the probability of landing on each section of a wheel that is equally divided into a set number of sections, using Monte Carlo simulation.
+
+#### **How It Works:**
+-Simulates a large number of spins on an equally divided wheel (default: 100,000 spins).
+- Each spin randomly lands on one of the predefined sections of the wheel.
+- The simulation tracks the frequency of each section being landed on and calculates the probability of landing on each section.
+- The probability of each section is estimated based on the number of spins that landed on it.
+- The simulation also displays the distribution of outcomes, allowing for a clear understanding of the probability distribution across sections.
+#### **Visualization:**
+📊 Pie Chart: Displays the probability of landing on each section of the wheel.
+📊 Bar Chart: Shows the distribution of wheel spin outcomes, i.e., how many times each section was chosen.
+🔥 Heatmap: Illustrates the frequency of landing on each section, using color gradients to indicate higher and lower frequencies.
+
+#### **Detailed Results:**
+The program prints the frequency and probability of landing on each section, offering insights into the results of the Monte Carlo simulation.
+It calculates and displays the probability of landing on each section.
+The most and least common sections are identified and displayed.
+This simulation demonstrates how Monte Carlo methods can be applied to estimate probabilities and analyze outcomes in real-world scenarios such as games or random processes. 🎯
+
