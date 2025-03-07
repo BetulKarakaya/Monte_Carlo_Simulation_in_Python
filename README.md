@@ -226,3 +226,30 @@ It calculates and displays the probability of landing on each section.
 The most and least common sections are identified and displayed.
 This simulation demonstrates how Monte Carlo methods can be applied to estimate probabilities and analyze outcomes in real-world scenarios such as games or random processes. 🎯
 
+
+
+
+
+### 🎯 13.[Monte Carlo Simulation: Probability of Being Selected in a Competition and Answering Correctly](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_competition.py)
+#### **Goal:**
+Estimate the probability of a contestant being randomly selected in a competition and their likelihood of answering a multiple-choice question correctly.
+
+#### **How It Works:**
+- Simulates a large number of competitions (default: 100,000 simulations).
+- Each simulation randomly selects a contestant from a fixed number of participants.
+- The probability of each contestant being chosen is calculated based on frequency.
+- The probability of the selected contestant correctly answering the question is computed using the assumption that they randomly guess among multiple-choice options.
+- The simulation provides insights into the likelihood of contestants being chosen and answering correctly.
+#### **Visualization:**
+- 📊 Bar Chart (Selection Probability): Displays the probability distribution of contestants being selected.
+- 📊 Bar Chart (Correct Answer Probability): Shows the probability of a contestant being chosen and knowing the correct answer.
+- 🔥 Heatmap: Illustrates the frequency of contestant selection, with color gradients indicating higher and lower occurrences.
+
+#### **Detailed Results:**
+- The frequency and probability of each contestant being selected are displayed.
+- The probability of answering correctly is computed based on contestant selection probability and the number of answer choices.
+- The simulation identifies the most and least frequently selected contestants.
+- Monte Carlo methods are used to approximate real-world probabilities in random selection and multiple-choice answering scenarios. 🎯
+
+🚀 This simulation showcases how randomness influences outcomes in competitions and games, helping to estimate real-world probabilities through repeated trials.
+
