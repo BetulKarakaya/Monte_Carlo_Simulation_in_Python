@@ -253,3 +253,67 @@ Estimate the probability of a contestant being randomly selected in a competitio
 
 🚀 This simulation showcases how randomness influences outcomes in competitions and games, helping to estimate real-world probabilities through repeated trials.
 
+### 📐 14.[Monte Carlo Simulation: Estimating the Area of a Right Triangle](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_area_of_right_triangle.py)
+
+**Goal:** Approximate the area of a right triangle inside a unit square using a Monte Carlo method.
+
+### 🎯 How It Works:
+- A unit square (1x1) is defined.
+- A right triangle is formed with vertices at (0,0), (1,0), and (1,1).
+- Random points are generated within the unit square.
+- The fraction of points that fall within the right triangle is used to estimate its area.
+
+The theoretical area of the right triangle is:
+
+ 
+ The area of a right triangle is calculated using the formula:
+
+  𝐴 =1/2 × Base × Height
+where the base and height are the two perpendicular sides of the triangle.
+
+In a unit square, the ratio of points that fall below the line 𝑥=𝑦 to the total number of points represents the area of the right triangle formed within the square. In the simulation, we estimate this area by calculating the proportion of randomly generated points that satisfy 𝑥≥𝑦
+
+- The Monte Carlo estimation should converge to 0.5 as the number of points increases.
+
+### 📊 Visualization:
+- 🟪 **Purple - Blue Square**: Represents the unit square.
+- 🟦 **Light Blue Triangle**: Represents the right triangle.
+-  **Scatter Points**:
+  - 🟣Points **inside** the triangle are marked with one color.
+  - 🟢Points **outside** the triangle are marked with another.
+
+### 📌 Results:
+- Displays the estimated area of the right triangle based on the simulation.
+- Compares the Monte Carlo result with the true theoretical area.
+- Shows a visual representation of the simulation.
+
+This experiment highlights how Monte Carlo methods can be applied to geometric problems and probability-based estimations. 🎲📏
+
+### 🔢 15.[Monte Carlo Simulation: Estimating the Value of π (Pi)](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_pi.py)
+
+**Goal:** Estimate the mathematical constant π using a Monte Carlo simulation.
+
+### 🎯 How It Works:
+- Randomly generates a large number of points within a square of side length 2.
+- Determines whether each point falls inside the unit circle (radius = 1, centered at the origin).
+- The ratio of points inside the circle to the total number of points is used to approximate π using the formula:
+
+ pi ≈ 4 × [(points inside of right- top quarter) / points outside of right-top quarter]
+- The estimated value of π converges towards 3.14159 as the number of points increases.
+
+### 📊 Visualization:
+- 🟢 **Green Points**: Points inside the unit circle.
+- 🔵 **Blue Points**: Points outside the unit circle.
+- ⚫ **Black Circle**: Represents the actual boundary of the unit circle.
+
+The more points we simulate, the closer the estimated value of π is to its true value.
+
+### 📌 Results:
+- The program calculates an estimated value of π and compares it with the true mathematical value.
+- Displays the ratio of points inside the circle vs. total points.
+- Plots a scatter plot to visualize the distribution of points inside and outside the circle.
+
+This simulation demonstrates the power of Monte Carlo methods in solving mathematical problems through random sampling. 🎲✨
+
+
+
