@@ -255,9 +255,9 @@ Estimate the probability of a contestant being randomly selected in a competitio
 
 ### 📐 14.[Monte Carlo Simulation: Estimating the Area of a Right Triangle](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_area_of_right_triangle.py)
 
-**Goal:** Approximate the area of a right triangle inside a unit square using a Monte Carlo method.
+#### **Goal:** Approximate the area of a right triangle inside a unit square using a Monte Carlo method.
 
-### 🎯 How It Works:
+#### 🎯 How It Works:
 - A unit square (1x1) is defined.
 - A right triangle is formed with vertices at (0,0), (1,0), and (1,1).
 - Random points are generated within the unit square.
@@ -275,14 +275,14 @@ In a unit square, the ratio of points that fall below the line 𝑥=𝑦 to the 
 
 - The Monte Carlo estimation should converge to 0.5 as the number of points increases.
 
-### 📊 Visualization:
+#### 📊 Visualization:
 - 🟪 **Purple - Blue Square**: Represents the unit square.
 - 🟦 **Light Blue Triangle**: Represents the right triangle.
 -  **Scatter Points**:
   - 🟣Points **inside** the triangle are marked with one color.
   - 🟢Points **outside** the triangle are marked with another.
 
-### 📌 Results:
+#### 📌 Results:
 - Displays the estimated area of the right triangle based on the simulation.
 - Compares the Monte Carlo result with the true theoretical area.
 - Shows a visual representation of the simulation.
@@ -291,9 +291,9 @@ This experiment highlights how Monte Carlo methods can be applied to geometric p
 
 ### 🔢 15.[Monte Carlo Simulation: Estimating the Value of π (Pi)](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_pi.py)
 
-**Goal:** Estimate the mathematical constant π using a Monte Carlo simulation.
+#### **Goal:** Estimate the mathematical constant π using a Monte Carlo simulation.
 
-### 🎯 How It Works:
+#### 🎯 How It Works:
 - Randomly generates a large number of points within a square of side length 2.
 - Determines whether each point falls inside the unit circle (radius = 1, centered at the origin).
 - The ratio of points inside the circle to the total number of points is used to approximate π using the formula:
@@ -301,19 +301,43 @@ This experiment highlights how Monte Carlo methods can be applied to geometric p
  pi ≈ 4 × [(points inside of right- top quarter) / points outside of right-top quarter]
 - The estimated value of π converges towards 3.14159 as the number of points increases.
 
-### 📊 Visualization:
+#### 📊 Visualization:
 - 🟢 **Green Points**: Points inside the unit circle.
 - 🔵 **Blue Points**: Points outside the unit circle.
 - ⚫ **Black Circle**: Represents the actual boundary of the unit circle.
 
 The more points we simulate, the closer the estimated value of π is to its true value.
 
-### 📌 Results:
+#### 📌 Results:
 - The program calculates an estimated value of π and compares it with the true mathematical value.
 - Displays the ratio of points inside the circle vs. total points.
 - Plots a scatter plot to visualize the distribution of points inside and outside the circle.
 
 This simulation demonstrates the power of Monte Carlo methods in solving mathematical problems through random sampling. 🎲✨
+
+### 🎲 16. [Monte Carlo Simulation: Estimating the Probability of Dice Rolls Greater Than a Specified Value](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_three_dice_min.py)
+#### **Goal:** 
+Estimate the probability of each of the three dice rolls being greater than a specified minimum value using a Monte Carlo simulation.
+
+#### **🎯 How It Works:**
+Randomly simulates a large number of dice rolls (3 dice rolls per simulation).
+For each simulation, checks if each of the three dice rolls is greater than the given minimum value (default: 4).
+Calculates the ratio of simulations where all three dice rolls are greater than the minimum value.
+The estimated probability is calculated by dividing the number of successful simulations (where all three dice meet the condition) by the total number of simulations.
+The probability converges towards a stable value as the number of simulations increases.
+
+#### 📊 Visualization:
+- 🟢 **Green Points:** Represent the probability of a dice roll being greater than the specified minimum value.
+- 🔵 **Blue Points:** Represent the probability of a dice roll not being greater than the specified minimum value.
+- 📊 **Bar Charts:** The distribution of the number of times each dice value (1 through 6) appeared for each of the three dice.
+The more simulations we run, the closer the estimated probability comes to the true value based on random dice rolls.
+
+#### 📌 Results:
+- The program calculates the estimated probability that each die in the simulation is greater than the specified minimum value.
+- It compares the estimated probability with the true mathematical probability.
+- Displays the number of times each dice value appeared and the distribution for all three dice rolls.
+- Includes a pie chart for visualizing the probability of success (all dice greater than the specified value) and failure (at least one die not meeting the condition).
+- This simulation demonstrates the power of Monte Carlo methods in estimating probabilities and visualizing random events. 🎲✨
 
 
 
