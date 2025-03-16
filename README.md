@@ -316,7 +316,7 @@ The more points we simulate, the closer the estimated value of π is to its true
 This simulation demonstrates the power of Monte Carlo methods in solving mathematical problems through random sampling. 🎲✨
 
 ### 🎲 16. [Monte Carlo Simulation: Estimating the Probability of Dice Rolls Greater Than a Specified Value](https://github.com/BetulKarakaya/MonteCarloSimulation/blob/main/simulation_of_three_dice_min.py)
-#### **Goal:** 
+#### **Goal**:
 Estimate the probability of each of the three dice rolls being greater than a specified minimum value using a Monte Carlo simulation.
 
 #### **🎯 How It Works:**
@@ -338,6 +338,35 @@ The more simulations we run, the closer the estimated probability comes to the t
 - Displays the number of times each dice value appeared and the distribution for all three dice rolls.
 - Includes a pie chart for visualizing the probability of success (all dice greater than the specified value) and failure (at least one die not meeting the condition).
 - This simulation demonstrates the power of Monte Carlo methods in estimating probabilities and visualizing random events. 🎲✨
+
+
+### 17. 📞 [Monte Carlo Simulation: Estimating the Probability of a Phone Number Ending in an Even Digit](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_last_digit_even_number.py)
+
+#### 🎯 **Goal**:
+This Monte Carlo simulation estimates the probability that the last digit of a randomly generated 10-digit phone number is an even number. The simulation generates a large number of phone numbers and calculates the proportion of cases where the last digit is even.
+
+#### 🛠 **How It Works**:
+1. **Phone Number Generation**:  
+   - The first digit is randomly selected between 2 and 9 (as phone numbers in the American system cannot start with 0 or 1).  
+   - The remaining 9 digits are randomly generated between 0 and 9.  
+2. **Last Digit Check**:  
+   - The last digit of each generated phone number is checked to determine if it is even (0, 2, 4, 6, 8).  
+3. **Probability Calculation**:  
+   - The estimated probability is computed by dividing the number of phone numbers with an even last digit by the total number of generated phone numbers.  
+   - As the number of simulations increases, the estimated probability stabilizes and approaches the true probability based on random number distribution.  
+
+#### 📊 Visualization:
+- **📉 Histogram**: Shows the frequency distribution of the last digits of the generated phone numbers.
+- **🥧 Pie Chart**: Illustrates the proportion of phone numbers ending in an even versus an odd digit.
+- **📌 Error Analysis**: Displays the margin of error based on the number of samples used in the simulation.
+
+#### 🔍 Results:
+- The program calculates and displays the estimated probability of a phone number ending in an even digit.
+- It visually represents the distribution of last digits.
+- The estimated probability is compared with the expected theoretical probability (0.5).
+- The margin of error is included to indicate the reliability of the simulation results.
+
+This project demonstrates the effectiveness of Monte Carlo methods in estimating probabilities and analyzing random events using large-scale simulations. 📞📊✨
 
 
 
