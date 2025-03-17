@@ -370,3 +370,38 @@ This project demonstrates the effectiveness of Monte Carlo methods in estimating
 
 
 
+### 18. 📞 [Monte Carlo Simulation: Probability of a Number Appearing in a Phone Number](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_phone_number.py)
+
+#### 🎯 **Goal**:
+This Monte Carlo simulation estimates the probability that a specific digit appears a given number of times in randomly generated American phone numbers.
+
+#### 🔍 **How It Works**:
+1. **Phone Number Generation**  
+   - Generates phone numbers following the North American Numbering Plan (NANP).  
+   - The first digit must be between 2 and 9 (cannot start with 0 or 1).  
+   - The remaining 9 digits are randomly generated from 0 to 9.  
+
+2. **Probability Calculation**  
+   - The simulation counts how often the specified number (`searched_num`) appears in each generated phone number.  
+   - It then calculates how many phone numbers contain this number exactly `rep_num` times.  
+   - The estimated probability is computed by dividing the number of matching cases by the total number of generated phone numbers.
+
+3. **Visualization & Comparison**  
+   - Theoretical probability is compared with the estimated probability.  
+   - A bar chart displays occurrences of the condition.  
+   - A pie chart visualizes the probability distribution.  
+
+
+
+ #### 📉 **Data Visualization**:  
+  - 📊Bar chart showing the number of occurrences.  
+  - 🥧Pie chart depicting probability distribution.
+  - **📌 Error Analysis**: Displays the margin of error based on the number of samples used in the simulation.
+
+#### 📊 Results:
+- The program outputs the estimated probability of the given digit appearing `rep_num` times in a phone number.  
+- The theoretical probability is calculated for comparison.  
+- The visualization helps in understanding the probability distribution.  
+
+This project demonstrates the power of Monte Carlo simulations in estimating probabilities based on random events.   
+
