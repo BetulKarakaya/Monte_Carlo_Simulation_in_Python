@@ -405,3 +405,23 @@ This Monte Carlo simulation estimates the probability that a specific digit appe
 
 This project demonstrates the power of Monte Carlo simulations in estimating probabilities based on random events.   
 
+### 🏹 19. [Archery Target Hit Probability Simulation](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_archery.py)
+
+**🎯 Goal:** Estimate the probability that an arrow hits the circular target when randomly shot within a square using Monte Carlo simulation.
+
+**🧠 How It Works:**
+- Simulates a large number of random arrow shots (default: 100,000).
+- Uses the Monte Carlo method to estimate the probability of hitting a circular target inscribed within a square.
+- Calculates:
+  - Empirical probability of hitting the target (`p ≈ π/4`).
+  - Theoretical probability (`π/4 ≈ 0.7854`).
+  - ✅ **Error margin** for the estimated probability at 95% confidence level.
+
+**📊 Visual Outputs:**
+- 🔵 A scatter plot showing hit (blue) and miss (red) points to visualize shot distribution.
+- 📉 A bar chart comparing empirical and theoretical probabilities.
+- 🧾 Summary of the results printed to console:
+  - Estimated probability.
+  - Error margin (±) to understand statistical uncertainty.
+  - Confidence that results converge to π/4 as the number of samples increases.
+
