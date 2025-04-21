@@ -424,4 +424,22 @@ This project demonstrates the power of Monte Carlo simulations in estimating pro
   - Estimated probability.
   - Error margin (±) to understand statistical uncertainty.
   - Confidence that results converge to π/4 as the number of samples increases.
+ 
+  ht
+
+  ### 🚇20. [Metro Station Meeting Simulation](tps://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_metro_waiting.py)
+
+**Goal:** Estimate the probability that two people arriving randomly at a metro station do **not** meet because their arrival times differ by more than 5 minutes.
+
+**How It Works:**
+- Simulates 100,000 random arrival times (0 to 10 minutes) for two people.
+- Computes how often their absolute arrival difference exceeds 5 minutes.
+- Estimates the probability of not meeting (|A - B| > 5).
+- Calculates error margin to assess confidence in the result.
+- Visualizes the result with:
+  - 🟢 Green points for pairs that meet.
+  - 🔴 Red points for pairs that don’t meet.
+  - Dashed lines marking the 5-minute boundaries.
+
+
 
