@@ -427,7 +427,7 @@ This project demonstrates the power of Monte Carlo simulations in estimating pro
  
   ht
 
-  ### 🚇20. [Metro Station Meeting Simulation](tps://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_metro_waiting.py)
+  ### 🚇20. [Metro Station Meeting Simulation](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_metro_waiting.py)
 
 **Goal:** Estimate the probability that two people arriving randomly at a metro station do **not** meet because their arrival times differ by more than 5 minutes.
 
@@ -440,6 +440,35 @@ This project demonstrates the power of Monte Carlo simulations in estimating pro
   - 🟢 Green points for pairs that meet.
   - 🔴 Red points for pairs that don’t meet.
   - Dashed lines marking the 5-minute boundaries.
+ 
+
+
+### 💹 21. [Monte Carlo Trading Simulation: Monthly Profit Estimation](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_trade_market.py)
+**Goal:** Estimate the probability of ending the month with a profit based on daily random price fluctuations and realistic trading rules like take-profit and stop-loss.
+
+**How It Works:**
+
+- Simulates 100,000 individual trading sessions using Monte Carlo methods.
+- Each session models 30 trading days, where the price changes daily based on a Gaussian (normal) distribution:
+- 📈 Mean return: 0.05%
+- 📉 Volatility (standard deviation): 1%
+- Applies exit rules:
+  - Take Profit: Exit trade if price reaches +10% gain.
+  - Stop Loss: Exit trade if price drops by -5%.
+  - If neither is hit, profit/loss is determined based on final price after 30 days.
+  - Tracks the number of profitable vs. losing outcomes.
+  - Computes the experimental probability of making a profit.
+
+#### Visualizations:
+
+- 📊 A bar chart showing the count of:
+- Profitable simulations (✅)
+- Losing simulations (❌)
+#### Insight:
+Demonstrates the effect of randomness and trading strategy over a large number of simulations.
+Also showcases the Law of Large Numbers, where estimated probabilities stabilize as the sample size increases.
+
+
 
 
 
