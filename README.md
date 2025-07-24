@@ -468,6 +468,50 @@ This project demonstrates the power of Monte Carlo simulations in estimating pro
 Demonstrates the effect of randomness and trading strategy over a large number of simulations.
 Also showcases the Law of Large Numbers, where estimated probabilities stabilize as the sample size increases.
 
+### 🧪 22. [Monte Carlo Simulation: Disease Test Accuracy](https://github.com/BetulKarakaya/Monte_Carlo_Simulation_in_Python/blob/main/simulation_of_disease_test_accuracy.py)
+
+
+**🎯 Goal:**  
+Simulate and analyze the **diagnostic accuracy** of a medical test under different conditions, accounting for **true positives**, **false positives**, **true negatives**, and **false negatives** using Monte Carlo methods.
+
+#### 🔬 How It Works:
+
+- Simulates a population (e.g., 10,000 individuals) with:
+  - A **disease prevalence** rate (e.g., 1%)
+  - A **true positive rate (TPR)** – test detects disease correctly
+  - A **false positive rate (FPR)** – test incorrectly indicates disease in healthy individuals
+- Each individual is assigned randomly as either healthy or sick.
+- Then a test result is generated based on TPR/FPR for each case.
+#### 📊 Outputs:
+
+- Total number of:
+  - ✅ True Positives
+  - ❌ False Positives
+  - 🟩 True Negatives
+  - 🟨 False Negatives
+
+- **📌 Precision:**  
+  Probability that someone who tested positive actually has the disease:  
+  `Precision = TP / (TP + FP)`
+
+- **📌 Sensitivity (Recall):**  
+  Probability that the test identifies a diseased person correctly:  
+  `Sensitivity = TP / (TP + FN)`
+
+#### 📈 Visualization:
+
+- A **pie chart** displays the diagnostic breakdown of the population:
+  - True Positives, False Positives, True Negatives, False Negatives
+
+#### 🧠 Insights:
+
+- Demonstrates how diagnostic accuracy depends not only on test sensitivity/specificity, but also on **disease prevalence**.
+- Even with a "high accuracy" test, **false positives** can outnumber true positives when prevalence is low.
+- Encourages critical thinking in interpreting medical test results using probabilistic simulation.
+
+
+
+
 
 
 
