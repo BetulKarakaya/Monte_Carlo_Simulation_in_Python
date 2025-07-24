@@ -5,14 +5,13 @@ import random
 class MonteCarloAccuracyDisease:
 
     def __init__(self, population_size=10000, disease_rate=0.01, true_positive_rate=0.95, false_positive_rate=0.05):
-
         self.population_size = population_size
         self.disease_rate = disease_rate
         self.true_positive_rate = true_positive_rate
         self.false_positive_rate = false_positive_rate
 
-        self.false_negative_rate = 1 - self.true_positive_rate  # düzeltildi
-        self.true_negative_rate = 1 - self.false_positive_rate  # düzeltildi
+        self.false_negative_rate = 1 - self.true_positive_rate 
+        self.true_negative_rate = 1 - self.false_positive_rate 
 
         self.true_positives = 0
         self.false_positives = 0
@@ -46,7 +45,6 @@ class MonteCarloAccuracyDisease:
         self.negatives_test = self.true_negatives + self.false_negatives
 
     def display_results(self):
-
         print("\n🔬 Monte Carlo Simulation Results on Disease Testing Device Accuracy 🔬")
         print(f"Population Size: {self.population_size}")
         print(f"True Positives: {self.true_positives}")
@@ -54,26 +52,28 @@ class MonteCarloAccuracyDisease:
         print(f"True Negatives: {self.true_negatives}")
         print(f"False Negatives: {self.false_negatives}\n")
 
-        print("🎯 Precision (Pozitif çıkanlardan gerçekten hasta olanların oranı)")
+        print("🎯 Precision (Proportion of positive results that are actually sick)")
         precision = self.true_positives / (self.true_positives + self.false_positives)
         print(f"Precision = TP / (TP + FP): {precision:.4f}")
 
-        print("\n💉 Sensitivity / Recall (Gerçek hastaların testle yakalanma oranı)")
+        print("\n💉 Sensitivity / Recall (Proportion of actual sick people caught by the test)")
         sensitivity = self.true_positives / (self.true_positives + self.false_negatives)
         print(f"Sensitivity = TP / (TP + FN): {sensitivity:.4f}")
 
     def visualization(self):
-        colors = ["#81a4f7", "#a8f781", "#ffa81c", "#af6eff"]
+        colors = ["#81a4f7", "#a8f781", "#ffa81c", "#fc5252"]
         labels = ["True Positives", "False Positives", "True Negatives", "False Negatives"]
         sizes = [self.true_positives, self.false_positives, self.true_negatives, self.false_negatives]
+        explode = [0.1, 0.1, 0.1, 0]
 
-        fig, ax = plt.subplots(figsize=(8, 8))
-        ax.pie(sizes, labels=labels, colors=colors, autopct="%1.2f%%",
-               textprops={'color': "#393d47", 'fontsize': 13}, startangle=90)
+        fig, ax = plt.subplots(figsize=(10,10))
+        ax.pie(sizes, labels=labels, colors=colors, autopct="%1.1f%%",
+               textprops={'color': "#393d47", 'fontsize': 13}, startangle=45,explode=explode,wedgeprops={'edgecolor': 'white', 'linewidth': 2},radius=1.3)
 
         ax.set_title("Diagnostic Accuracy Breakdown", color="#393d47", fontsize=15)
         fig.suptitle("Monte Carlo Simulation: Diagnostic Performance of Disease Test Device",
                      fontsize=17, color="#393d47", weight="bold")
+        plt.subplots_adjust(left=0.1, right=0.9, bottom=0.2, top=0.85, wspace=0.5, hspace=0.4)
         plt.show()
 
 
